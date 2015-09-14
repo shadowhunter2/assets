@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>理财计划详情</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="app/base_css/base.css">
+    <link rel="stylesheet" type="text/css" href="app/newPlan/css/index.css">
+</head>
+<body>
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="#">首页</a></li>
+		<li><a href="#">投资理财管理</a></li>
+		<li class="active">发布</li>
+	</ol>
+
+	<div class="hr45"></div>
+
+		
+  <form class="form-inline" onsubmit="return false;">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+			    <label for="">计划募集金额：</label>
+			    <input type="text" class="form-control" id=""/>元
+			  </div>
+			  <div class="hr1"></div>
+
+				<div class="form-group">
+			    <label for="">基本收益：</label>
+			    <input type="text" class="form-control" id=""/>元
+			  </div>
+			  <div class="hr1"></div>
+
+				<div class="form-group">
+			    <label for="">计划募集开始时间：</label>
+			    <InputCanlerdar/>
+			  </div>
+			  <div class="hr1"></div>
+
+				<div class="form-group">
+			    <label for="">计划募集结束时间：</label>
+			    <InputCanlerdar/>
+			  </div>
+			  <div class="hr1"></div>
+
+				<div class="form-group">
+			    <label for="">计划还款时间</label>
+			    <InputCanlerdar/>
+			    <br/>
+			    <label for=""></label>  <span class="m5">理财周期60天</span>
+			  </div>
+			  <div class="hr1"></div>
+
+				<div class="form-group">
+			    <label for="">产品期限：</label>
+			    <input type="text" class="form-control" id=""/>天
+			  </div>
+			  <div class="hr1"></div>
+				
+				<div class="form-group">
+			    <label for="">还款时间：</label>
+			    <InputCanlerdar/>
+			  </div>
+			</div>
+
+			<div class="col-md-6">
+			  
+				<div class="form-group">
+			    <label for="">还款方式：</label>
+			    <select class="form-control" id="">
+					  <option>11111111</option>
+					  <option>22222222</option>
+					  <option>33333333</option>
+					  <option>44444444</option>
+					  <option>55555555</option>
+					</select>
+			  </div>
+			  <div class="hr1"></div>
+			  
+				<div class="form-group">
+				    <label for="">手续费：</label>
+				    <label class="radio-inline">
+						  <input type="radio" name="radio1" id="" value="" defaultChecked/> 无
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="radio1" id="" value=""/> 有
+						</label>
+				  </div>
+				  <div class="hr1"></div>
+				  
+					<div class="form-group">
+				    <label for="">支持提前回款：</label>
+				    <label class="radio-inline">
+						  <input type="radio" name="radio2" id="" value="" defaultChecked/> 否
+						</label>
+						<label class="radio-inline">
+						  <input type="radio" name="radio2" id="" value=""/> 是
+						</label>
+				  </div>
+				  <div class="hr1"></div>
+				  
+					<div class="form-group">
+				    <label for="">起购金额：</label>
+				    <input type="text" class="form-control" id=""/>元
+				  </div>
+				  <div class="hr1"></div>
+				  
+					<div class="form-group">
+				    <label for="">购买金额上限：</label>
+				    <input type="text" class="form-control" id=""/>元
+				  </div>
+				  <div class="hr1"></div>
+				  
+					<div class="form-group">
+				    <label for="">起息时间：</label>
+				     <select class="form-control" id="">
+						  <option>11111111</option>
+						  <option>22222222</option>
+						  <option>33333333</option>
+						  <option>44444444</option>
+						  <option>55555555</option>
+						</select>
+				  </div>
+
+				  <div class="hr45"></div>
+
+				  <div class="form-group">
+			  		<button type="button" class="btn btn-default m10" >取消</button>
+			 			<button type="button" class="btn btn-primary m10" >确定</button>
+				  </div>
+			</div>
+				
+	  </div>
+	</form>
+</div>
+<div id="app"  class="container"></div>
+<script src="dist/newPlan/main.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

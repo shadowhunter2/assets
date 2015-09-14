@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>交易记录</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="app/base_css/base.css">
+    <link rel="stylesheet" type="text/css" href="app/tradeRecord/css/index.css">
+</head>
+<body>
+<div class="container">
+	<ol class="breadcrumb">
+    <li><a href="#">首页</a></li>
+		<li><a href="#">资产管理</a></li>
+		<li class="active">交易记录</li>
+	</ol>
+
+	<form class="form-inline" onsubmit="return false;">
+    <div class="form-group">
+      <label htmlFor="">姓名</label>
+      <input type="text" class="form-control" id="" />
+    </div>
+    <div class="form-group">
+      <label htmlFor="">手机</label>
+      <input type="text" class="form-control" id="" />
+    </div>
+
+    <div class="form-group">
+      <label htmlFor="">交易状态</label>
+      <select class="form-control" >
+        <option>11111111</option>
+        <option>22222222</option>
+        <option>33333333</option>
+        <option>44444444</option>
+        <option>55555555</option>
+      </select>
+    </div>
+    <div class="hr15"></div>
+
+    <div class="form-group">
+      <label htmlFor="">第三方支付状态</label>
+      <select class="form-control" >
+        <option>11111111</option>
+        <option>22222222</option>
+        <option>33333333</option>
+        <option>44444444</option>
+        <option>55555555</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label htmlFor="">交易类型</label>
+      <select class="form-control" >
+        <option>11111111</option>
+        <option>22222222</option>
+        <option>33333333</option>
+        <option>44444444</option>
+        <option>55555555</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label htmlFor="">交易时间</label>
+      <InputCanlerdar placeholder={'开始时间'} name={'startTime'}/>
+      <label class="m5">至</label>
+      <InputCanlerdar placeholder={'结束时间'} name={'endTime'}/>
+    </div>
+    <div class="hr15"></div>
+
+    <div class="form-group">
+      <label>      
+        <input type="checkbox" id="">只显示需审批提现用户
+      </label>
+
+    </div>
+    <div class="form-group">
+      <a href="javascript:;" class="btn btn-primary m10">查询</a>
+      <a href="javascript:;" class="btn btn-default m10">重置</a>
+    </div>
+  </form>
+
+	<div class="hr15"></div>
+	<div class="border1px"></div>
+	<div class="hr15"></div>
+  <button type="button" class="btn btn-primary mb20" data-toggle="modal" data-target="#myModal">批量提现</button>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">批量提现</h4>
+        </div>
+        <div class="modal-body">
+          你同意提现13笔，合计233,424.00元吗
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-primary">确定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th><input type="checkbox"></th>
+          <th>投资人</th>
+          <th>交易时间</th>
+          <th>交易类型</th>
+          <th>交易金额</th>
+          <th>银行卡</th>
+          <th>交易状态</th>
+          <th>第三方支付状态</th>
+          <th>原因</th>
+        </tr>
+      </thead>
+      <tbody>
+  			<tr>
+          <td><input type="checkbox"></td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+        </tr>   
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<div id="app"  class="container"></div>
+<script src="dist/tradeRecord/main.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

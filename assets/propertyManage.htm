@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>资产管理</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="app/base_css/base.css">
+    <link rel="stylesheet" type="text/css" href="app/propertyManage/css/index.css">
+</head>
+<body>
+<div class="container">
+	<ol class="breadcrumb">
+		<li><a href="#">首页</a></li>
+		<li class="active">资产管理</li>
+	</ol>
+
+	<form class="form-inline" onsubmit="return false;">
+	  <div class="form-group">
+	    <label htmlFor="">姓名</label>
+	    <input type="text" class="form-control" id=""  />
+	  </div>
+
+	  <div class="form-group">
+	    <label htmlFor="">手机</label>
+	    <input type="text" class="form-control" id=""  />
+	  </div>
+		
+	  <div class="form-group">
+		  <a href="javascript:;" class="btn btn-primary m10">查询</a>
+		  <a href="javascript:;" class="btn btn-default m10">重置</a>
+	  </div>
+	</form>
+
+	<div class="hr15"></div>
+	<div class="border1px"></div>
+	<div class="hr15"></div>
+
+	<div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th><input type="checkbox"></th>
+          <th>投资人</th>
+          <th>总资产</th>
+          <th>账户余额（元）</th>
+          <th>在投资产（元）</th>
+          <th>当收收益（元）</th>
+          <th>累计收益（元）</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+  			<tr>
+          <td><input type="checkbox"></td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>asd飞</td>
+          <td>
+          	<div class="btn-group">
+  		        <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  		          操作 <span class="caret"></span>
+  		        </button>
+  		        <ul class="dropdown-menu">
+  		          <li><RecPay /></li>
+  		          <li><a href="#">审核</a></li>
+  		          <li><a href="#">审核</a></li>
+  		          <li><a href="#">审核</a></li>
+  		        </ul>
+  		      </div>
+          </td>
+        </tr>   
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<div id="app"  class="container"></div>
+<script src="dist/propertyManage/main.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

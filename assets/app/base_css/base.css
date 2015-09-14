@@ -1,0 +1,154 @@
+.rc-dialog-mask{
+	position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  height: 100%;
+  opacity: .5;
+  z-index: 1000;
+}
+
+.rc-dialog {
+  outline: none;
+  position: absolute;
+  left:-9999px;
+  top:-9999px;
+  z-index: 1000;
+}
+
+.rc-dialog-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rc-dialog-content {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+}
+
+.rc-dialog-wrap-hidden > .rc-dialog,
+.rc-dialog-wrap-hidden > .rc-dialog-mask {
+  display: none;
+}
+
+.rc-dialog-close {
+  cursor: pointer;
+  outline: none;
+  margin-top: -2px;
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  text-decoration: none;
+}
+
+.rc-dialog-close:after {
+  content:'×'
+}
+
+.rc-dialog-close:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+.rc-dialog-header {
+  min-height: 16.43px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.rc-dialog-body {
+  overflow-y: auto;
+  padding: 15px
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.hr15{
+	height: 15px;overflow: hidden;clear: both;
+}
+
+.hr45{
+  height: 45px;overflow: hidden;clear: both;
+}
+
+
+.hr1{
+  height: 1px;overflow: hidden;clear: both;
+}
+
+
+.border1px{
+	border-top: 1px solid #ccc;overflow: hidden;clear: both;height: 0;margin-bottom: 10px;
+}
+
+.form-control{
+	margin: 0 10px;
+}
+
+.m10{
+	margin: 10px
+}
+
+.m3{
+	margin: 0 3px;
+}
+
+.mt0{
+	margin-top: 0px;
+}
+
+.m5{
+	margin: 5px;
+}
+
+.mb20{
+  margin-bottom: 20px;
+}
+
+.ml15{
+  margin-left: 15px;
+}
+
+.mtb20{
+  margin-top: 20px;margin-bottom: 20px;
+}
+
+.nav-pills{
+	margin: 10px 0;
+}
+
+.breadcrumb{
+  margin-bottom: 10px;background: #fff;margin-top: 10px;
+}
+
+.table-responsive{
+  overflow: initial;
+}
+
+.nav-justified{
+  margin-top: 5px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,537 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/zhujun/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/zhujun/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'react-router' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json assets@1.0.0 No description
+5 warn package.json assets@1.0.0 No repository field.
+6 warn package.json assets@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react-router', null ]
+9 verbose cache add name=undefined spec="react-router" args=["react-router",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react-router',
+10 verbose parsed url   path: 'react-router',
+10 verbose parsed url   href: 'react-router' }
+11 silly lockFile 8307adf9-react-router react-router
+12 verbose lock react-router /Users/zhujun/.npm/8307adf9-react-router.lock
+13 silly lockFile 8307adf9-react-router react-router
+14 silly lockFile 8307adf9-react-router react-router
+15 verbose addNamed [ 'react-router', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 683905ff-react-router react-router@
+18 verbose lock react-router@ /Users/zhujun/.npm/683905ff-react-router.lock
+19 silly addNameRange { name: 'react-router', range: '*', hasData: false }
+20 verbose request where is /react-router
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 42a724d0639e6d45
+23 verbose url raw /react-router
+24 verbose url resolving [ 'https://registry.npmjs.org/', './react-router' ]
+25 verbose url resolved https://registry.npmjs.org/react-router
+26 verbose request where is https://registry.npmjs.org/react-router
+27 info trying registry request attempt 1 at 13:46:28
+28 http GET https://registry.npmjs.org/react-router
+29 http 200 https://registry.npmjs.org/react-router
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"3UAIUFM9X4W1YOFNOX497L2IE"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     'content-length': '77123',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Fri, 11 Sep 2015 05:46:30 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-nrt6133-NRT',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1441950389.721383,VS0,VE468',
+30 silly registry.get     vary: 'Accept' } ]
+31 silly addNameRange number 2 { name: 'react-router', range: '*', hasData: true }
+32 silly addNameRange versions [ 'react-router',
+32 silly addNameRange   [ '0.0.0',
+32 silly addNameRange     '0.0.1',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.4.1',
+32 silly addNameRange     '0.4.2',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.5.1',
+32 silly addNameRange     '0.5.2',
+32 silly addNameRange     '0.5.3',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.2',
+32 silly addNameRange     '0.9.3',
+32 silly addNameRange     '0.9.4',
+32 silly addNameRange     '0.9.5',
+32 silly addNameRange     '0.10.0',
+32 silly addNameRange     '0.10.1',
+32 silly addNameRange     '0.10.2',
+32 silly addNameRange     '0.11.0',
+32 silly addNameRange     '0.11.1',
+32 silly addNameRange     '0.11.2',
+32 silly addNameRange     '0.11.3',
+32 silly addNameRange     '0.11.4',
+32 silly addNameRange     '0.11.5',
+32 silly addNameRange     '0.11.6',
+32 silly addNameRange     '0.12.0',
+32 silly addNameRange     '0.12.1',
+32 silly addNameRange     '0.12.2',
+32 silly addNameRange     '0.12.3',
+32 silly addNameRange     '0.12.4',
+32 silly addNameRange     '0.13.0',
+32 silly addNameRange     '0.13.1',
+32 silly addNameRange     '0.13.2',
+32 silly addNameRange     '0.13.3',
+32 silly addNameRange     '1.0.0-alpha1',
+32 silly addNameRange     '1.0.0-alpha2',
+32 silly addNameRange     '1.0.0-beta1',
+32 silly addNameRange     '1.0.0-beta2',
+32 silly addNameRange     '1.0.0-beta3',
+32 silly addNameRange     '1.0.0-beta4' ] ]
+33 verbose addNamed [ 'react-router', '0.13.3' ]
+34 verbose addNamed [ '0.13.3', '0.13.3' ]
+35 silly lockFile 99c70d1b-react-router-0-13-3 react-router@0.13.3
+36 verbose lock react-router@0.13.3 /Users/zhujun/.npm/99c70d1b-react-router-0-13-3.lock
+37 silly lockFile 4d2970f9-t-router-react-router-0-13-3-tgz https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+38 verbose lock https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz /Users/zhujun/.npm/4d2970f9-t-router-react-router-0-13-3-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz',
+39 verbose addRemoteTarball   '95455dd19d2c04c7b2957ff7fccda76031ac29b1' ]
+40 info retry fetch attempt 1 at 13:46:30
+41 verbose fetch to= /var/folders/c2/vvxxktqx48nfk1b_t4vrl7gc0000gn/T/npm-16766-V19kxtfM/registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+42 http GET https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+43 http 200 https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+44 silly lockFile 4d2970f9-t-router-react-router-0-13-3-tgz https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+45 silly lockFile 4d2970f9-t-router-react-router-0-13-3-tgz https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz
+46 silly lockFile 99c70d1b-react-router-0-13-3 react-router@0.13.3
+47 silly lockFile 99c70d1b-react-router-0-13-3 react-router@0.13.3
+48 silly lockFile 683905ff-react-router react-router@
+49 silly lockFile 683905ff-react-router react-router@
+50 silly resolved [ { name: 'react-router',
+50 silly resolved     version: '0.13.3',
+50 silly resolved     description: 'A complete routing library for React.js',
+50 silly resolved     main: 'lib',
+50 silly resolved     repository:
+50 silly resolved      { type: 'git',
+50 silly resolved        url: 'https://github.com/rackt/react-router.git' },
+50 silly resolved     homepage: 'https://github.com/rackt/react-router/blob/latest/README.md',
+50 silly resolved     bugs: { url: 'https://github.com/rackt/react-router/issues' },
+50 silly resolved     authors: [ 'Ryan Florence', 'Michael Jackson' ],
+50 silly resolved     license: 'MIT',
+50 silly resolved     peerDependencies: { react: '0.13.x' },
+50 silly resolved     dependencies: { 'object-assign': '^2.0.0', qs: '2.4.1' },
+50 silly resolved     tags: [ 'react', 'router' ],
+50 silly resolved     keywords:
+50 silly resolved      [ 'react',
+50 silly resolved        'react-component',
+50 silly resolved        'routing',
+50 silly resolved        'route',
+50 silly resolved        'routes',
+50 silly resolved        'router' ],
+50 silly resolved     _id: 'react-router@0.13.3',
+50 silly resolved     scripts: {},
+50 silly resolved     _shasum: '95455dd19d2c04c7b2957ff7fccda76031ac29b1',
+50 silly resolved     _from: 'react-router@',
+50 silly resolved     _resolved: 'https://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz',
+50 silly resolved     _npmVersion: '2.5.1',
+50 silly resolved     _nodeVersion: '0.12.0',
+50 silly resolved     _npmUser: { name: 'ryanflorence', email: 'rpflorence@gmail.com' },
+50 silly resolved     maintainers: [ [Object], [Object] ],
+50 silly resolved     dist:
+50 silly resolved      { shasum: '95455dd19d2c04c7b2957ff7fccda76031ac29b1',
+50 silly resolved        tarball: 'http://registry.npmjs.org/react-router/-/react-router-0.13.3.tgz' },
+50 silly resolved     directories: {} } ]
+51 info install react-router@0.13.3 into /Users/zhujun/Sites/code/p2p/assets
+52 info installOne react-router@0.13.3
+53 verbose node_modules/react-router unbuild
+54 verbose tar unpack /Users/zhujun/.npm/react-router/0.13.3/package.tgz
+55 silly lockFile 6169f78d-assets-node-modules-react-router tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+56 verbose lock tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router /Users/zhujun/.npm/6169f78d-assets-node-modules-react-router.lock
+57 silly lockFile 8426467a--react-router-0-13-3-package-tgz tar:///Users/zhujun/.npm/react-router/0.13.3/package.tgz
+58 verbose lock tar:///Users/zhujun/.npm/react-router/0.13.3/package.tgz /Users/zhujun/.npm/8426467a--react-router-0-13-3-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm extractEntry README.md
+62 silly gunzTarPerm extractEntry lib/Cancellation.js
+63 silly gunzTarPerm extractEntry lib/Redirect.js
+64 silly gunzTarPerm extractEntry lib/Route.js
+65 silly gunzTarPerm extractEntry lib/ScrollHistory.js
+66 silly gunzTarPerm extractEntry lib/PropTypes.js
+67 silly gunzTarPerm extractEntry lib/TestUtils.js
+68 silly gunzTarPerm extractEntry lib/History.js
+69 silly gunzTarPerm extractEntry lib/runRouter.js
+70 silly gunzTarPerm extractEntry lib/isReactChildren.js
+71 silly gunzTarPerm extractEntry lib/index.js
+72 silly gunzTarPerm extractEntry lib/PathUtils.js
+73 silly gunzTarPerm extractEntry lib/createRouter.js
+74 silly gunzTarPerm extractEntry lib/Navigation.js
+75 silly gunzTarPerm extractEntry lib/createRoutesFromReactChildren.js
+76 silly gunzTarPerm extractEntry lib/Match.js
+77 silly gunzTarPerm extractEntry lib/getWindowScrollPosition.js
+78 silly gunzTarPerm extractEntry lib/State.js
+79 silly gunzTarPerm extractEntry lib/supportsHistory.js
+80 silly gunzTarPerm extractEntry lib/Transition.js
+81 silly gunzTarPerm extractEntry lib/components/ActiveHandler.js
+82 silly gunzTarPerm extractEntry lib/components/ContextWrapper.js
+83 silly gunzTarPerm extractEntry lib/components/DefaultRoute.js
+84 silly gunzTarPerm extractEntry lib/components/Link.js
+85 silly gunzTarPerm extractEntry lib/components/NotFoundRoute.js
+86 silly gunzTarPerm extractEntry lib/components/Redirect.js
+87 silly gunzTarPerm extractEntry lib/components/Route.js
+88 silly gunzTarPerm extractEntry lib/components/RouteHandler.js
+89 silly gunzTarPerm extractEntry lib/behaviors/ImitateBrowserBehavior.js
+90 silly gunzTarPerm extractEntry lib/behaviors/ScrollToTopBehavior.js
+91 silly gunzTarPerm extractEntry lib/locations/HashLocation.js
+92 silly gunzTarPerm extractEntry lib/locations/HistoryLocation.js
+93 silly gunzTarPerm extractEntry lib/locations/RefreshLocation.js
+94 silly gunzTarPerm extractEntry lib/locations/StaticLocation.js
+95 silly gunzTarPerm extractEntry lib/locations/TestLocation.js
+96 silly gunzTarPerm extractEntry lib/actions/LocationActions.js
+97 silly gunzTarPerm extractEntry umd/ReactRouter.js
+98 silly gunzTarPerm extractEntry umd/ReactRouter.min.js
+99 silly lockFile 6169f78d-assets-node-modules-react-router tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+100 silly lockFile 6169f78d-assets-node-modules-react-router tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+101 silly lockFile 8426467a--react-router-0-13-3-package-tgz tar:///Users/zhujun/.npm/react-router/0.13.3/package.tgz
+102 silly lockFile 8426467a--react-router-0-13-3-package-tgz tar:///Users/zhujun/.npm/react-router/0.13.3/package.tgz
+103 info preinstall react-router@0.13.3
+104 verbose readDependencies using package.json deps
+105 verbose readDependencies using package.json deps
+106 verbose cache add [ 'object-assign@^2.0.0', null ]
+107 verbose cache add name=undefined spec="object-assign@^2.0.0" args=["object-assign@^2.0.0",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'object-assign@^2.0.0',
+108 verbose parsed url   path: 'object-assign@^2.0.0',
+108 verbose parsed url   href: 'object-assign@^2.0.0' }
+109 verbose cache add [ 'qs@2.4.1', null ]
+110 verbose cache add name=undefined spec="qs@2.4.1" args=["qs@2.4.1",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'qs@2.4.1',
+111 verbose parsed url   path: 'qs@2.4.1',
+111 verbose parsed url   href: 'qs@2.4.1' }
+112 verbose cache add name="object-assign" spec="^2.0.0" args=["object-assign","^2.0.0"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '^2.0.0',
+113 verbose parsed url   path: '^2.0.0',
+113 verbose parsed url   href: '^2.0.0' }
+114 verbose addNamed [ 'object-assign', '^2.0.0' ]
+115 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+116 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+117 verbose lock object-assign@^2.0.0 /Users/zhujun/.npm/5a30528b-object-assign-2-0-0.lock
+118 verbose cache add name="qs" spec="2.4.1" args=["qs","2.4.1"]
+119 verbose parsed url { protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: '2.4.1',
+119 verbose parsed url   path: '2.4.1',
+119 verbose parsed url   href: '2.4.1' }
+120 verbose addNamed [ 'qs', '2.4.1' ]
+121 verbose addNamed [ '2.4.1', '2.4.1' ]
+122 silly lockFile 7522a7fe-qs-2-4-1 qs@2.4.1
+123 verbose lock qs@2.4.1 /Users/zhujun/.npm/7522a7fe-qs-2-4-1.lock
+124 silly addNameRange { name: 'object-assign',
+124 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+124 silly addNameRange   hasData: false }
+125 verbose request where is /qs
+126 verbose request registry https://registry.npmjs.org/
+127 verbose url raw /qs
+128 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+129 verbose url resolved https://registry.npmjs.org/qs
+130 verbose request where is https://registry.npmjs.org/qs
+131 info trying registry request attempt 1 at 13:46:33
+132 verbose etag "D60W2JE3DV745U36K30WDSJ9Q"
+133 http GET https://registry.npmjs.org/qs
+134 verbose request where is /object-assign
+135 verbose request registry https://registry.npmjs.org/
+136 verbose url raw /object-assign
+137 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+138 verbose url resolved https://registry.npmjs.org/object-assign
+139 verbose request where is https://registry.npmjs.org/object-assign
+140 info trying registry request attempt 1 at 13:46:33
+141 verbose etag "9Y072UXPGMKE8NKK9IQ13AUIG"
+142 http GET https://registry.npmjs.org/object-assign
+143 http 304 https://registry.npmjs.org/object-assign
+144 silly registry.get cb [ 304,
+144 silly registry.get   { date: 'Fri, 11 Sep 2015 05:46:33 GMT',
+144 silly registry.get     via: '1.1 varnish',
+144 silly registry.get     'cache-control': 'max-age=60',
+144 silly registry.get     etag: '"9Y072UXPGMKE8NKK9IQ13AUIG"',
+144 silly registry.get     age: '35',
+144 silly registry.get     connection: 'close',
+144 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+144 silly registry.get     'x-cache': 'HIT',
+144 silly registry.get     'x-cache-hits': '1',
+144 silly registry.get     'x-timer': 'S1441950393.896282,VS0,VE1',
+144 silly registry.get     vary: 'Accept' } ]
+145 verbose etag https://registry.npmjs.org/object-assign from cache
+146 silly addNameRange number 2 { name: 'object-assign',
+146 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+146 silly addNameRange   hasData: true }
+147 silly addNameRange versions [ 'object-assign',
+147 silly addNameRange   [ '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.1.2',
+147 silly addNameRange     '0.2.0',
+147 silly addNameRange     '0.2.1',
+147 silly addNameRange     '0.2.2',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.3.1',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '2.0.0',
+147 silly addNameRange     '3.0.0',
+147 silly addNameRange     '2.1.1',
+147 silly addNameRange     '4.0.0',
+147 silly addNameRange     '4.0.1' ] ]
+148 verbose addNamed [ 'object-assign', '2.1.1' ]
+149 verbose addNamed [ '2.1.1', '2.1.1' ]
+150 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+151 verbose lock object-assign@2.1.1 /Users/zhujun/.npm/52ac3888-object-assign-2-1-1.lock
+152 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+153 silly lockFile 52ac3888-object-assign-2-1-1 object-assign@2.1.1
+154 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+155 silly lockFile 5a30528b-object-assign-2-0-0 object-assign@^2.0.0
+156 http 200 https://registry.npmjs.org/qs
+157 silly registry.get cb [ 200,
+157 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly registry.get     etag: '"7WPD2WJ7LCD8QI7WKCH746ACT"',
+157 silly registry.get     'content-type': 'application/json',
+157 silly registry.get     'cache-control': 'max-age=60',
+157 silly registry.get     'content-length': '59025',
+157 silly registry.get     'accept-ranges': 'bytes',
+157 silly registry.get     date: 'Fri, 11 Sep 2015 05:46:33 GMT',
+157 silly registry.get     via: '1.1 varnish',
+157 silly registry.get     age: '15',
+157 silly registry.get     connection: 'keep-alive',
+157 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+157 silly registry.get     'x-cache': 'HIT',
+157 silly registry.get     'x-cache-hits': '1',
+157 silly registry.get     'x-timer': 'S1441950393.894066,VS0,VE1',
+157 silly registry.get     vary: 'Accept' } ]
+158 silly lockFile 2b45340c-gistry-npmjs-org-qs-qs-2-4-1-tgz https://registry.npmjs.org/qs/-/qs-2.4.1.tgz
+159 verbose lock https://registry.npmjs.org/qs/-/qs-2.4.1.tgz /Users/zhujun/.npm/2b45340c-gistry-npmjs-org-qs-qs-2-4-1-tgz.lock
+160 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-2.4.1.tgz',
+160 verbose addRemoteTarball   '68cbaea971013426a80c1404fad6b1a6b1175245' ]
+161 info retry fetch attempt 1 at 13:46:34
+162 verbose fetch to= /var/folders/c2/vvxxktqx48nfk1b_t4vrl7gc0000gn/T/npm-16766-V19kxtfM/registry.npmjs.org/qs/-/qs-2.4.1.tgz
+163 http GET https://registry.npmjs.org/qs/-/qs-2.4.1.tgz
+164 http 200 https://registry.npmjs.org/qs/-/qs-2.4.1.tgz
+165 silly lockFile 2b45340c-gistry-npmjs-org-qs-qs-2-4-1-tgz https://registry.npmjs.org/qs/-/qs-2.4.1.tgz
+166 silly lockFile 2b45340c-gistry-npmjs-org-qs-qs-2-4-1-tgz https://registry.npmjs.org/qs/-/qs-2.4.1.tgz
+167 silly lockFile 7522a7fe-qs-2-4-1 qs@2.4.1
+168 silly lockFile 7522a7fe-qs-2-4-1 qs@2.4.1
+169 silly resolved [ { name: 'object-assign',
+169 silly resolved     version: '2.1.1',
+169 silly resolved     description: 'ES6 Object.assign() ponyfill',
+169 silly resolved     license: 'MIT',
+169 silly resolved     repository:
+169 silly resolved      { type: 'git',
+169 silly resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
+169 silly resolved     author:
+169 silly resolved      { name: 'Sindre Sorhus',
+169 silly resolved        email: 'sindresorhus@gmail.com',
+169 silly resolved        url: 'http://sindresorhus.com' },
+169 silly resolved     engines: { node: '>=0.10.0' },
+169 silly resolved     scripts: { test: 'mocha' },
+169 silly resolved     files: [ 'index.js' ],
+169 silly resolved     keywords:
+169 silly resolved      [ 'object',
+169 silly resolved        'assign',
+169 silly resolved        'extend',
+169 silly resolved        'properties',
+169 silly resolved        'es6',
+169 silly resolved        'ecmascript',
+169 silly resolved        'harmony',
+169 silly resolved        'ponyfill',
+169 silly resolved        'prollyfill',
+169 silly resolved        'polyfill',
+169 silly resolved        'shim',
+169 silly resolved        'browser' ],
+169 silly resolved     devDependencies: { mocha: '*' },
+169 silly resolved     readme: '# object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)\n\n> ES6 [`Object.assign()`](http://www.2ality.com/2014/01/object-assign.html) ponyfill\n\n> Ponyfill: A polyfill that doesn\'t overwrite the native method\n\n\n## Install\n\n```sh\n$ npm install --save object-assign\n```\n\n\n## Usage\n\n```js\nvar objectAssign = require(\'object-assign\');\n\nobjectAssign({foo: 0}, {bar: 1});\n//=> {foo: 0, bar: 1}\n\n// multiple sources\nobjectAssign({foo: 0}, {bar: 1}, {baz: 2});\n//=> {foo: 0, bar: 1, baz: 2}\n\n// overwrites equal keys\nobjectAssign({foo: 0}, {foo: 1}, {foo: 2});\n//=> {foo: 2}\n\n// ignores null and undefined sources\nobjectAssign({foo: 0}, null, {bar: 1}, undefined);\n//=> {foo: 0, bar: 1}\n```\n\n\n## API\n\n### objectAssign(target, source, [source, ...])\n\nAssigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.\n\n\n## Resources\n\n- [ES6 spec - Object.assign](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.assign)\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+169 silly resolved     readmeFilename: 'readme.md',
+169 silly resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+169 silly resolved     homepage: 'https://github.com/sindresorhus/object-assign',
+169 silly resolved     _id: 'object-assign@2.1.1',
+169 silly resolved     _shasum: '43c36e5d569ff8e4816c4efa8be02d26967c18aa',
+169 silly resolved     _from: 'object-assign@^2.0.0',
+169 silly resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-2.1.1.tgz' },
+169 silly resolved   { name: 'qs',
+169 silly resolved     version: '2.4.1',
+169 silly resolved     description: 'A querystring parser that supports nesting and arrays, with a depth limit',
+169 silly resolved     homepage: 'https://github.com/hapijs/qs',
+169 silly resolved     main: 'index.js',
+169 silly resolved     dependencies: {},
+169 silly resolved     devDependencies: { code: '1.x.x', lab: '5.x.x' },
+169 silly resolved     scripts: { test: 'make test-cov' },
+169 silly resolved     repository: { type: 'git', url: 'https://github.com/hapijs/qs.git' },
+169 silly resolved     keywords: [ 'querystring', 'qs' ],
+169 silly resolved     licenses: [ [Object] ],
+169 silly resolved     gitHead: '58c6540418954867822c1af3e45fb4c26708b07e',
+169 silly resolved     bugs: { url: 'https://github.com/hapijs/qs/issues' },
+169 silly resolved     _id: 'qs@2.4.1',
+169 silly resolved     _shasum: '68cbaea971013426a80c1404fad6b1a6b1175245',
+169 silly resolved     _from: 'qs@2.4.1',
+169 silly resolved     _npmVersion: '2.6.1',
+169 silly resolved     _nodeVersion: '0.10.36',
+169 silly resolved     _npmUser: { name: 'nlf', email: 'quitlahok@gmail.com' },
+169 silly resolved     maintainers: [ [Object], [Object] ],
+169 silly resolved     dist:
+169 silly resolved      { shasum: '68cbaea971013426a80c1404fad6b1a6b1175245',
+169 silly resolved        tarball: 'http://registry.npmjs.org/qs/-/qs-2.4.1.tgz' },
+169 silly resolved     directories: {},
+169 silly resolved     _resolved: 'https://registry.npmjs.org/qs/-/qs-2.4.1.tgz' } ]
+170 info install object-assign@2.1.1 into /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+171 info install qs@2.4.1 into /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+172 info installOne object-assign@2.1.1
+173 info installOne qs@2.4.1
+174 verbose node_modules/react-router/node_modules/object-assign unbuild
+175 verbose tar unpack /Users/zhujun/.npm/object-assign/2.1.1/package.tgz
+176 silly lockFile 975ae1c7-outer-node-modules-object-assign tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign
+177 verbose lock tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign /Users/zhujun/.npm/975ae1c7-outer-node-modules-object-assign.lock
+178 silly lockFile 9747d24d--object-assign-2-1-1-package-tgz tar:///Users/zhujun/.npm/object-assign/2.1.1/package.tgz
+179 verbose lock tar:///Users/zhujun/.npm/object-assign/2.1.1/package.tgz /Users/zhujun/.npm/9747d24d--object-assign-2-1-1-package-tgz.lock
+180 verbose node_modules/react-router/node_modules/qs unbuild
+181 silly gunzTarPerm modes [ '755', '644' ]
+182 verbose tar unpack /Users/zhujun/.npm/qs/2.4.1/package.tgz
+183 silly lockFile ba87ae5c-les-react-router-node-modules-qs tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs
+184 verbose lock tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs /Users/zhujun/.npm/ba87ae5c-les-react-router-node-modules-qs.lock
+185 silly lockFile be035aec--zhujun-npm-qs-2-4-1-package-tgz tar:///Users/zhujun/.npm/qs/2.4.1/package.tgz
+186 verbose lock tar:///Users/zhujun/.npm/qs/2.4.1/package.tgz /Users/zhujun/.npm/be035aec--zhujun-npm-qs-2-4-1-package-tgz.lock
+187 silly gunzTarPerm extractEntry package.json
+188 silly gunzTarPerm modes [ '755', '644' ]
+189 silly gunzTarPerm extractEntry index.js
+190 silly gunzTarPerm extractEntry license
+191 silly gunzTarPerm extractEntry package.json
+192 silly gunzTarPerm extractEntry .npmignore
+193 silly gunzTarPerm extractEntry README.md
+194 silly gunzTarPerm extractEntry readme.md
+195 silly gunzTarPerm extractEntry LICENSE
+196 silly gunzTarPerm extractEntry index.js
+197 silly gunzTarPerm extractEntry CHANGELOG.md
+198 silly gunzTarPerm extractEntry CONTRIBUTING.md
+199 silly gunzTarPerm extractEntry Makefile
+200 silly gunzTarPerm extractEntry .jshintignore
+201 silly gunzTarPerm extractEntry .jshintrc
+202 silly gunzTarPerm extractEntry lib/index.js
+203 silly gunzTarPerm extractEntry lib/parse.js
+204 silly gunzTarPerm extractEntry lib/stringify.js
+205 silly gunzTarPerm extractEntry lib/utils.js
+206 silly gunzTarPerm extractEntry .travis.yml
+207 silly gunzTarPerm extractEntry test/parse.js
+208 silly gunzTarPerm extractEntry test/stringify.js
+209 silly lockFile 975ae1c7-outer-node-modules-object-assign tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign
+210 silly lockFile 975ae1c7-outer-node-modules-object-assign tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign
+211 silly lockFile 9747d24d--object-assign-2-1-1-package-tgz tar:///Users/zhujun/.npm/object-assign/2.1.1/package.tgz
+212 silly lockFile 9747d24d--object-assign-2-1-1-package-tgz tar:///Users/zhujun/.npm/object-assign/2.1.1/package.tgz
+213 info preinstall object-assign@2.1.1
+214 verbose readDependencies using package.json deps
+215 verbose readDependencies using package.json deps
+216 silly resolved []
+217 verbose about to build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign
+218 info build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/object-assign
+219 verbose linkStuff [ false,
+219 verbose linkStuff   false,
+219 verbose linkStuff   false,
+219 verbose linkStuff   '/Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules' ]
+220 info linkStuff object-assign@2.1.1
+221 verbose linkBins object-assign@2.1.1
+222 verbose linkMans object-assign@2.1.1
+223 verbose rebuildBundles object-assign@2.1.1
+224 info install object-assign@2.1.1
+225 info postinstall object-assign@2.1.1
+226 silly lockFile ba87ae5c-les-react-router-node-modules-qs tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs
+227 silly lockFile ba87ae5c-les-react-router-node-modules-qs tar:///Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs
+228 silly lockFile be035aec--zhujun-npm-qs-2-4-1-package-tgz tar:///Users/zhujun/.npm/qs/2.4.1/package.tgz
+229 silly lockFile be035aec--zhujun-npm-qs-2-4-1-package-tgz tar:///Users/zhujun/.npm/qs/2.4.1/package.tgz
+230 info preinstall qs@2.4.1
+231 verbose readDependencies using package.json deps
+232 verbose readDependencies using package.json deps
+233 silly resolved []
+234 verbose about to build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs
+235 info build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules/qs
+236 verbose linkStuff [ false,
+236 verbose linkStuff   false,
+236 verbose linkStuff   false,
+236 verbose linkStuff   '/Users/zhujun/Sites/code/p2p/assets/node_modules/react-router/node_modules' ]
+237 info linkStuff qs@2.4.1
+238 verbose linkBins qs@2.4.1
+239 verbose linkMans qs@2.4.1
+240 verbose rebuildBundles qs@2.4.1
+241 info install qs@2.4.1
+242 info postinstall qs@2.4.1
+243 verbose about to build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+244 info build /Users/zhujun/Sites/code/p2p/assets/node_modules/react-router
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   '/Users/zhujun/Sites/code/p2p/assets/node_modules' ]
+246 info linkStuff react-router@0.13.3
+247 verbose linkBins react-router@0.13.3
+248 verbose linkMans react-router@0.13.3
+249 verbose rebuildBundles react-router@0.13.3
+250 verbose rebuildBundles [ 'object-assign', 'qs' ]
+251 info install react-router@0.13.3
+252 info postinstall react-router@0.13.3
+253 verbose saving { 'react-router': '^0.13.3' }
+254 error Error: EACCES, open '/Users/zhujun/Sites/code/p2p/assets/package.json'
+254 error  { [Error: EACCES, open '/Users/zhujun/Sites/code/p2p/assets/package.json']
+254 error   errno: 3,
+254 error   code: 'EACCES',
+254 error   path: '/Users/zhujun/Sites/code/p2p/assets/package.json' }
+255 error Please try running this command again as root/Administrator.
+256 error System Darwin 14.3.0
+257 error command "/Users/zhujun/.nvm/v0.10.33/bin/node" "/Users/zhujun/.nvm/v0.10.33/bin/npm" "install" "--save-dev" "react-router"
+258 error cwd /Users/zhujun/Sites/code/p2p/assets
+259 error node -v v0.10.33
+260 error npm -v 1.4.28
+261 error path /Users/zhujun/Sites/code/p2p/assets/package.json
+262 error code EACCES
+263 error errno 3
+264 error stack Error: EACCES, open '/Users/zhujun/Sites/code/p2p/assets/package.json'
+265 verbose exit [ 3, true ]

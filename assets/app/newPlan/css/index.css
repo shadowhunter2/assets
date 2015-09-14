@@ -1,0 +1,11 @@
+label{
+	width: 126px;
+}
+
+.radio-inline{
+	width: auto;margin-left: 10px;
+}
+
+.form-inline .form-group{
+	margin-bottom: 15px;
+}

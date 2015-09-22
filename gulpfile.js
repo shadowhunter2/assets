@@ -1,20 +1,14 @@
 var gulp = require('gulp'),
 	browserify = require('gulp-browserify'),
 	connect = require('gulp-connect'),
-	port = process.env.port || 2222;
-
-var pageArr = ['planDetail', 'planManage','home','propertyManage','tradeRecord',
-							'investerManage','investManage','investDetail', 'newPlan','router']
+	port = process.env.port || 8280;
 
 gulp.task('browserify',function(){
-	for(var i=0;i<pageArr.length;i++){
-		gulp.src('./app/' + pageArr[i] + '/main.js')
-		.pipe(browserify({
-			transform: 'reactify'
-		}))
-		.pipe(gulp.dest('./dist/'+ pageArr[i]));
-	}
-
+	gulp.src('./app/js/main.js')
+	.pipe(browserify({
+		transform: 'reactify'
+	}))
+	.pipe(gulp.dest('./dist/js/'));
 });
 
 gulp.task('basejs',function(){
@@ -28,7 +22,7 @@ gulp.task('html-reload',function(){
 });
 
 gulp.task('css-reload',function(){
-	gulp.src('./app/**/css/*.css')
+	gulp.src('./app/base_css/*.css')
 		.pipe(connect.reload())
 });
 
@@ -45,16 +39,17 @@ gulp.task('connect', function(){
 })
 
 gulp.task('watch',function(){
-	gulp.watch('./app/**/js/*.js', ['browserify']);
-	gulp.watch('./app/**/main.js', ['browserify']);
-	gulp.watch('./*.htm', ['html-reload']);
-	gulp.watch('./dist/**/main.js', ['js-reload']);
-	gulp.watch('./app/**/css/*.css', ['css-reload']);
-	gulp.watch('./app/base_js/*.js', ['basejs', 'browserify']);
+	gulp.watch('./app/**/*.js', ['browserify']);
+	// gulp.watch('./app/js/main.js', ['browserify']);
+	// gulp.watch('./index.htm', ['html-reload']);
+	// gulp.watch('./dist/**/main.js', ['js-reload']);
+	// gulp.watch('./app/base_css/*.css', ['css-reload']);
+	// gulp.watch('./app/base_js/*.js', ['basejs', 'browserify']);
 })
 
 gulp.task('default', ['browserify', 'basejs','watch', 'connect']);
 
+gulp.task('dev', ['browserify', 'basejs','watch']);
 
 
 

@@ -1,0 +1,115 @@
+.home .page-header{
+	background: #f5f5f5;margin: 0;line-height: 50px;margin-top: 10px;
+}
+
+.home .money{
+	color: #d44950;
+}
+
+.home .h-title{
+	height: 60px;line-height: 60px;
+}
+
+.investDetail .detail-header{
+	height: 50px;line-height: 50px;background: #f5f5f5;margin: 0;
+}
+
+.investDetail .row{
+	margin: 0;
+}
+
+.investDetail .row .col-md-4{
+	height: 40px;line-height: 40px;
+}
+
+.investManage label{
+	margin-left: 15px;
+}
+
+.newPlan label{
+	width: 150px;
+}
+
+.newPlan .radio-inline{
+	width: auto;margin-left: 10px;
+}
+
+.newPlan .form-inline .form-group{
+	margin-bottom: 15px;
+}
+
+.newPlan .row{
+	margin-left: 0px;margin-right: 0;
+}
+
+.investManage .form-inline{
+	margin-left: -15px;
+}
+
+.planDetail .detail-header{
+	height: 50px;line-height: 50px;background: #f5f5f5;margin: 0;
+}
+
+.planDetail .row{
+	margin: 0;
+}
+
+.planDetail .form-control{
+	margin: 0;
+}
+
+.planDetail .radio-inline{
+	margin-left: 10px;
+}
+
+.planDetail .radio-inline input{
+	margin-left: -15px
+}
+
+.planDetail .row .col-md-4{
+	height: 40px;line-height: 40px;
+}
+
+.planManage .dropdown-menu,.investerManage .dropdown-menu{
+	left: -6px;
+	min-width: 0px;
+}
+
+.planManage .dropdown-menu li  a ,
+.investerManage .dropdown-menu li  a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+.planManage .rc-pagination{
+	float: right;
+}
+
+.home .pl20 h4,.pl20 .money{
+  padding-left: 20px;
+}
+
+
+
+.rc-calendar-picker-container .rc-calendar-time-panel-tbody .row:last-child {
+  background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

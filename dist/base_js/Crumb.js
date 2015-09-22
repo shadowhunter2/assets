@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 var Crumb = React.createClass({
 
@@ -7,12 +8,16 @@ var Crumb = React.createClass({
 		var navArr = []
 
 		for(var i=0; i<navs.urls.length; i++){
-			navArr.push(<li key={'nav' + i}><a href={ navs.urls[i].url }>{ navs.urls[i].name }</a></li>)
+			navArr.push(
+				<li key={'nav' + i}>
+					<Link to={ navs.urls[i].url }>{ navs.urls[i].name }</Link>
+				</li>
+			);
 		}
 
 		return (
 			<ol className="breadcrumb">
-				<li><a href="/index.htm">首页</a></li>
+				<li><Link to="home">首页</Link></li>
 				{navArr}
 				<li className="active">{ navs.current }</li>
 			</ol>
